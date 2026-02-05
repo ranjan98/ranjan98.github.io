@@ -1499,3 +1499,405 @@ footer .credits a {
   background: #fff;
   border: 2px solid #d43076;
 }
+
+/*--------------------------------------------------------------
+# Modern Minimal UI Improvements (2026 Update)
+--------------------------------------------------------------*/
+
+/* Improved Typography & Spacing */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  line-height: 1.7;
+}
+
+.lead {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* Hero Section Enhancement */
+.hero .overlay-itro {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 40, 80, 0.8) 100%);
+}
+
+.hero .hero-title {
+  letter-spacing: -0.5px;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+.hero .hero-subtitle {
+  opacity: 0.95;
+  letter-spacing: 0.5px;
+}
+
+/* About Section Image Enhancement */
+.about-mf .about-img img {
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.about-mf .about-img img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Modern Service/Skill Boxes */
+.service-box {
+  border: 1px solid #eee;
+  transition: all 0.4s ease;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.service-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0, 120, 255, 0.15);
+  border-color: rgba(0, 120, 255, 0.2);
+}
+
+.service-box .s-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.service-box .s-description {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* Modern Portfolio Cards */
+.work-box {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.work-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+.work-box:hover img {
+  transform: scale(1.08);
+}
+
+.work-img {
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+}
+
+.work-img img {
+  transition: transform 0.6s ease;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Placeholder styling for projects without screenshots */
+.work-img-placeholder {
+  background: linear-gradient(135deg, #0078ff 0%, #00c6ff 100%);
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease;
+}
+
+.work-img-placeholder .placeholder-content {
+  text-align: center;
+  color: #fff;
+}
+
+.work-img-placeholder .placeholder-content i {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 0.5rem;
+  opacity: 0.9;
+}
+
+.work-img-placeholder .placeholder-content span {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  font-weight: 500;
+}
+
+.work-box:hover .work-img-placeholder {
+  background: linear-gradient(135deg, #0062d3 0%, #00a8ff 100%);
+}
+
+/* Portfolio Link Styling */
+.portfolio-link {
+  cursor: pointer;
+}
+
+/* Progress Bar Improvements */
+.skill-mf .progress {
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.skill-mf .progress .progress-bar {
+  border-radius: 4px;
+  background: linear-gradient(90deg, #0078ff 0%, #00c6ff 100%);
+}
+
+/* Counter Section Enhancement */
+.section-counter {
+  position: relative;
+}
+
+.counter-box {
+  padding: 1rem;
+}
+
+.counter-num .counter {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.counter-text {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+/* Resume Section Styling */
+.resume {
+  background-color: #fff;
+}
+
+.resume .resume-title {
+  color: #0078ff;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.resume .resume-item {
+  border-left-color: #0078ff;
+  padding-bottom: 1.5rem;
+}
+
+.resume .resume-item::before {
+  border-color: #0078ff;
+  background: #0078ff;
+}
+
+.resume .resume-item h4 {
+  color: #1e1e1e;
+  font-size: 1.1rem;
+}
+
+.resume .resume-item h5 {
+  background: linear-gradient(90deg, #e8f4ff 0%, #f5f5f5 100%);
+  color: #0078ff;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+.resume .resume-item ul li {
+  color: #555;
+  padding-bottom: 0.5rem;
+}
+
+/* Download Button Styling */
+.btn-primary {
+  background: linear-gradient(90deg, #0078ff 0%, #00a8ff 100%);
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 25px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(0, 120, 255, 0.4);
+  background: linear-gradient(90deg, #0062d3 0%, #0078ff 100%);
+}
+
+/* Contact Section Enhancement */
+.contact-mf .box-shadow-full {
+  border-radius: 12px;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Subtle Fade-in Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.service-box,
+.work-box,
+.resume-item {
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+/* Better Mobile Responsiveness */
+@media (max-width: 768px) {
+  .hero .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero .hero-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .title-a {
+    font-size: 2rem;
+  }
+
+  .service-box {
+    margin-bottom: 1.5rem;
+  }
+
+  .work-img-placeholder {
+    height: 180px;
+  }
+
+  .counter-num .counter {
+    font-size: 2rem;
+  }
+}
+
+/* Header scroll effect enhancement */
+#header.header-scrolled {
+  background: rgba(0, 30, 60, 0.95);
+  backdrop-filter: blur(10px);
+}
+
+/* Social Icons Hover Enhancement */
+.socials .ico-circle {
+  transition: all 0.3s ease;
+}
+
+.socials .ico-circle:hover {
+  transform: translateY(-3px);
+}
+
+/* Box Shadow Improvements */
+.box-shadow-full {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+
+/* Title styling refinement */
+.title-box {
+  margin-bottom: 3rem;
+}
+
+.title-a {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.line-mf {
+  width: 60px;
+  height: 4px;
+  border-radius: 2px;
+  margin-top: 1rem;
+}
+
+/* About section info styling */
+.about-info p {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.about-info .title-s {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Open Source Section - Compact Cards */
+.opensource-section {
+  background-color: #f8f9fa;
+}
+
+.opensource-card {
+  display: block;
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem 0.8rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  border: 1px solid #eee;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.opensource-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 120, 255, 0.15);
+  border-color: rgba(0, 120, 255, 0.3);
+}
+
+.opensource-card i {
+  font-size: 1.5rem;
+  color: #0078ff;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.opensource-card h4 {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #1e1e1e;
+  margin-bottom: 0.2rem;
+}
+
+.opensource-desc {
+  font-size: 0.7rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+}
+
+.opensource-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+}
+
+.opensource-links a {
+  font-size: 0.65rem;
+  padding: 0.2rem 0.5rem;
+  background: #f0f7ff;
+  color: #0078ff;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.opensource-links a:hover {
+  background: #0078ff;
+  color: #fff;
+}
+
+.opensource-card:hover h4 {
+  color: #0078ff;
+}
