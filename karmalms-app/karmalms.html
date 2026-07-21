@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Ranjan Goyal Portfolio - TubeGrab</title>
-  <meta content="Modern dark-mode desktop app for downloading YouTube video, audio, playlists and subtitles" name="description">
-  <meta content="Python, Desktop App, customtkinter, yt-dlp, ffmpeg" name="keywords">
+  <title>Ranjan Goyal Portfolio - KarmaLMS</title>
+  <meta content="Open-source, AWS-native, AI-native LMS for corporate training" name="description">
+  <meta content="LMS, Next.js, PostgreSQL, AWS, Open Source" name="keywords">
 
   <!-- Favicons -->
   <link href="../assets/img/favicon.png" rel="icon">
@@ -34,7 +34,7 @@
             <li class="breadcrumb-item">
               <a href="../index.html">Home</a>
             </li>
-            <li class="breadcrumb-item active">TubeGrab</li>
+            <li class="breadcrumb-item active">KarmaLMS</li>
           </ol>
         </div>
       </div>
@@ -54,15 +54,19 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="tubegrab-3.png" alt="TubeGrab - Download in progress with subtitles enabled">
+                  <img src="karmalms-1.png" alt="KarmaLMS - Admin dashboard">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="tubegrab-1.png" alt="TubeGrab - Main window">
+                  <img src="karmalms-2.png" alt="KarmaLMS - Compliance analytics by department">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="tubegrab-2.png" alt="TubeGrab - Video info fetched">
+                  <img src="karmalms-3.png" alt="KarmaLMS - Certification tracking with expiry status">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="karmalms-4.png" alt="KarmaLMS - Course builder">
                 </div>
 
               </div>
@@ -74,31 +78,30 @@
             <div class="portfolio-info">
               <h3>Project Information</h3>
               <ul>
-                <li><strong>Category</strong>: Desktop Application</li>
-                <li><strong>Tech Stack</strong>: Python, customtkinter, yt-dlp, ffmpeg</li>
-                <li><strong>Platform</strong>: macOS / Windows / Linux</li>
+                <li><strong>Category</strong>: Web Application (Open Source)</li>
+                <li><strong>Tech Stack</strong>: Next.js, TypeScript, PostgreSQL (pgvector), Drizzle, AWS</li>
+                <li><strong>Platform</strong>: Self-hosted — Docker / AWS</li>
                 <li><strong>Year</strong>: 2026</li>
-                <li><strong>Source</strong>: <a href="https://github.com/ranjan98/tubegrab" target="_blank">GitHub</a> (MIT)</li>
-                <li><strong>Built with</strong>: Claude Code</li>
+                <li><strong>Source</strong>: <a href="https://github.com/ranjan98/karmalms" target="_blank">GitHub</a></li>
+                <li><strong>License</strong>: MIT</li>
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>About TubeGrab</h2>
+              <h2>About KarmaLMS</h2>
               <p>
-                TubeGrab is a sleek, dark-mode desktop app for downloading YouTube videos, audio, and entire playlists. It wraps the powerful yt-dlp engine in a friendly native GUI — paste a link, pick a quality, and go.
+                KarmaLMS is an open-source learning management system built for the <em>company</em> use-case — onboarding paths, compliance training, and certifications — instead of the school semester model most LMSs assume.
               </p>
               <h4>Key Features</h4>
               <ul>
-                <li>Video downloads with quality caps (Best / 4K / 1080p / 720p / 480p), merged to mp4</li>
-                <li>Audio-only mode: best original format, MP3 320/192 kbps, or M4A</li>
-                <li>Subtitle downloads (.srt) — manual subs and auto-generated CC, any language</li>
-                <li>Playlist detection with numbered, foldered downloads</li>
-                <li>Live progress bar with download speed and a cancel button</li>
-                <li>Auto-retry and resume on flaky connections</li>
-                <li>Fully threaded — the UI never freezes mid-download</li>
+                <li>Onboarding paths — courses auto-assigned by role, team, or start date</li>
+                <li>Compliance certifications with expiry dates and automatic lapse reminders</li>
+                <li>Manager dashboards: see who's overdue at a glance</li>
+                <li>Analytics: completion by department, certificate health</li>
+                <li>Bring-your-own everything: OIDC/SAML auth, S3 storage, Bedrock/OpenAI or no LLM</li>
+                <li>One-command local stack: <code>docker compose up</code> with Postgres + MinIO</li>
               </ul>
               <p class="mt-3">
-                <strong>Development Note:</strong> Built entirely with Claude Code, including the real in-app screenshots captured via a scripted Cocoa render of the live window.
+                <strong>Design Note:</strong> The whole app depends only on pluggable adapter interfaces — swapping identity, storage, or AI providers is a config change, not a code change.
               </p>
             </div>
           </div>
